@@ -1,0 +1,23 @@
+{
+  "name": "data-structures-algorithms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akeogh/data-structures-algorithms.git"
+  },
+  "author": "amanda.keogh@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/akeogh/data-structures-algorithms/issues"
+  },
+  "homepage": "https://github.com/akeogh/data-structures-algorithms#readme",
+  "devDependencies": {
+    "chai": "^3.4.0",
+    "mocha": "^2.3.3"
+  }
+}
