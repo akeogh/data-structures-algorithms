@@ -19,8 +19,8 @@ describe('the pop function', function() {
 describe('the push function', function() {
   it('should add an element to the end of the array', function () {
     var array = [1,2,3,4,5];
-    expect(push(array, 6)).to.eql([1,2,3,4,5,6]);
-    expect(array.length).to.eql(6);
+    expect(push(array, 6)).to.eql(6);
+    expect(array).to.eql([1,2,3,4,5,6]);
     expect(array[array.length - 1]).to.eql(6);
   });
 });
@@ -37,8 +37,8 @@ describe('the shift function', function() {
 describe('the unshift function', function() {
   it('should add an element to the beginning of an array', function() {
     var array = [1,2,3,4,5];
-    expect(unshift(array, 0)).to.eql([0,1,2,3,4,5]);
-    expect(array.length).to.eql(6);
+    expect(unshift(array, 0)).to.eql(6);
+    expect(array).to.eql([0,1,2,3,4,5]);
     expect(array[0]).to.eql(0);
   });
 });
