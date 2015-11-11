@@ -54,6 +54,6 @@ describe('the unique function', function() {
 
 describe('the frequency2 function', function() {
   it('should return the most common letter(anywhere in a word)', function() {
-    expect(frequency2('hello')).to.eql('l');
+    expect(frequency2(['hello','world'])).to.eql('l');
   })
 })
